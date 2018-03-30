@@ -1,3 +1,3 @@
 module.exports = function() {
-  throw new Error("Not implemented (yet)!")
+  throw new Error("Not implemented (yet)!");
 };
