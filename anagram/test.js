@@ -14,13 +14,4 @@ describe("Anagram", function() {
 
     done();
   });
-
-  it("Should not find words that have same length and letters, but different number of letters", function(done) {
-    const sentence = "loops llops";
-
-    const results = anagram(sentence);
-    assert.equal(results.length, 0);
-
-    done();
-  });
 });
