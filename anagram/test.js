@@ -7,6 +7,7 @@ describe("Anagram", function() {
 
     const results = anagram(sentence);
 
+    assert.equal(results.length, 4);
     assert.equal(results.includes("Mary"), true);
     assert.equal(results.includes("army"), true);
     assert.equal(results.includes("codes"), true);
